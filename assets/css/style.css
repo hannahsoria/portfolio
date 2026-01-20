@@ -193,6 +193,20 @@ a:hover {
   color: #d1d5db;
 }
 
+/* Publications: full-width paper description */
+.publication-description {
+  max-width: 100%;
+}
+
+/* Make publication paper titles white */
+#publications h3 a {
+  color: #ffffff;
+}
+
+#publications h3 a:hover {
+  color: #60a5fa; 
+}
+
 /* =====================
    Contact
 ===================== */
