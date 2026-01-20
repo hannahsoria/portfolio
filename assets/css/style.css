@@ -222,14 +222,25 @@ footer {
   .nav-links {
     gap: 1rem;
   }
-   
-/* Allow publication description to expand inside the container */
-.publication-description {
-  max-width: 100%;  /* remove the container max-width limit */
+
+/* Make publication paper titles white */
+#publications h3 a {
+  color: #ffffff;
 }
 
+#publications h3 a:hover {
+  color: #60a5fa; 
+}
+   
+/* Full-width-but-aligned publication description */
 .publication-description {
-  max-width: 900px;  /* or 1000px, slightly larger than normal text */
+  display: block;
+  width: auto;           /* let it size naturally */
+  max-width: none;       /* remove default container constraint */
+  margin-left: 0;        /* aligns with heading */
+  margin-right: 0;
+  padding-right: 0;      /* optional: remove extra spacing */
+  color: #d1d5db;       /* keep your text color */
 }
 
 }
