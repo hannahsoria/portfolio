@@ -115,6 +115,11 @@ a:hover {
   padding-top: 8rem;
 }
 
+/* Publications: full-width paper description */
+.publication-description {
+  max-width: 100%;
+}
+
 /* =====================
    ABOUT (MINIMAL CHANGE)
 ===================== */
