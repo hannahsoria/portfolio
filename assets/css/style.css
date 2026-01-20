@@ -225,13 +225,13 @@ footer {
 
 /* Publication paper title link color */
 #publications h3 a {
-  color: #ffffff;         /* white normally */
+  color: #ffffff !important;
   text-decoration: none;
 }
 
 #publications h3 a:hover {
-  color: #60a5fa;         /* blue on hover */
-  text-decoration: underline;  /* optional: matches other hover style */
+  color: #60a5fa !important;
+  text-decoration: underline; 
 }
    
 }
