@@ -224,11 +224,11 @@ footer {
   }
 
 /* Make publication paper titles white */
-#publications h3 a {
+#publications h2 a {
   color: #ffffff;
 }
 
-#publications h3 a:hover {
+#publications h2 a:hover {
   color: #60a5fa; 
 }
 
