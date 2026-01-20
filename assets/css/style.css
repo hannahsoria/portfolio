@@ -231,16 +231,5 @@ footer {
 #publications h3 a:hover {
   color: #60a5fa; 
 }
-   
-/* Full-width-but-aligned publication description */
-.publication-description {
-  display: block;
-  width: auto;           /* let it size naturally */
-  max-width: none;       /* remove default container constraint */
-  margin-left: 0;        /* aligns with heading */
-  margin-right: 0;
-  padding-right: 0;      /* optional: remove extra spacing */
-  color: #d1d5db;       /* keep your text color */
-}
 
 }
