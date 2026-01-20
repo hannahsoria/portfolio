@@ -115,11 +115,6 @@ a:hover {
   padding-top: 8rem;
 }
 
-/* Publications: full-width paper description */
-.publication-description {
-  max-width: 100%;
-}
-
 /* =====================
    ABOUT (MINIMAL CHANGE)
 ===================== */
@@ -193,19 +188,19 @@ a:hover {
   color: #d1d5db;
 }
 
-/* Publications: full-width paper description */
+/* Full-width publication description */
 .publication-description {
-  max-width: 100%;
+  width: 100vw; /* full viewport width */
+  background-color: transparent; /* keeps dark theme */
+  color: #d1d5db; /* same text color */
+  padding: 1.5rem; /* optional spacing */
+  margin: 0; /* remove auto margin from container */
 }
 
-/* Make publication paper titles white */
-#publications h3 a {
-  color: #ffffff;
+.publication-description p {
+  max-width: 100%; /* ensure paragraph uses full width */
 }
 
-#publications h3 a:hover {
-  color: #60a5fa; 
-}
 
 /* =====================
    Contact
