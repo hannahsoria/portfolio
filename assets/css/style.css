@@ -188,20 +188,6 @@ a:hover {
   color: #d1d5db;
 }
 
-/* Full-width publication description */
-.publication-description {
-  width: 100vw; /* full viewport width */
-  background-color: transparent; /* keeps dark theme */
-  color: #d1d5db; /* same text color */
-  padding: 1.5rem; /* optional spacing */
-  margin: 0; /* remove auto margin from container */
-}
-
-.publication-description p {
-  max-width: 100%; /* ensure paragraph uses full width */
-}
-
-
 /* =====================
    Contact
 ===================== */
@@ -236,4 +222,14 @@ footer {
   .nav-links {
     gap: 1rem;
   }
+   
+/* Allow publication description to expand inside the container */
+.publication-description {
+  max-width: 100%;  /* remove the container max-width limit */
+}
+
+.publication-description {
+  max-width: 900px;  /* or 1000px, slightly larger than normal text */
+}
+
 }
