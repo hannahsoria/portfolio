@@ -233,5 +233,9 @@ footer {
   color: #60a5fa !important;
   text-decoration: underline; 
 }
+
+#publications h3 {
+  color: inherit !important;  /* ensures h3 itself doesn’t override the link */
+}
    
 }
