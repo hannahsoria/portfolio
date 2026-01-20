@@ -116,7 +116,7 @@ a:hover {
 }
 
 /* =====================
-   ABOUT SECTION (FIXED)
+   ABOUT (MINIMAL CHANGE)
 ===================== */
 .about-container {
   display: flex;
@@ -125,24 +125,18 @@ a:hover {
 }
 
 .about-text {
-  flex: 2;
-}
-
-.about-image {
   flex: 1;
-  display: flex;
-  justify-content: center;
 }
 
 .about-image img {
-  width: 130px;
-  height: 130px;
+  width: 120px;          /* smaller image */
+  height: 120px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #1f2933;
 }
 
-/* Stack About on mobile */
+/* Stack on mobile */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
@@ -151,7 +145,7 @@ a:hover {
 }
 
 /* =====================
-   Projects
+   Projects (2x2 ONLY)
 ===================== */
 .projects-grid {
   display: grid;
@@ -160,10 +154,9 @@ a:hover {
   grid-template-columns: 1fr; /* mobile */
 }
 
-/* FORCE 2x2 grid on desktop */
 @media (min-width: 768px) {
   .projects-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 2x2 desktop */
   }
 }
 
