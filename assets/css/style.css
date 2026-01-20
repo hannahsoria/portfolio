@@ -223,13 +223,15 @@ footer {
     gap: 1rem;
   }
 
-/* Make publication paper titles white */
-#publications h2 a {
-  color: #ffffff;
+/* Publication paper title link color */
+#publications h3 a {
+  color: #ffffff;         /* white normally */
+  text-decoration: none;
 }
 
-#publications h2 a:hover {
-  color: #60a5fa; 
+#publications h3 a:hover {
+  color: #60a5fa;         /* blue on hover */
+  text-decoration: underline;  /* optional: matches other hover style */
 }
-
+   
 }
